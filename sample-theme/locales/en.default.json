@@ -1,0 +1,34 @@
+{
+  "general": {
+    "search": {
+      "placeholder": "Search our store"
+    },
+    "newsletter": {
+      "success": "Thanks for subscribing!"
+    }
+  },
+  "products": {
+    "price": {
+      "from_price_html": "From {{ price }}"
+    },
+    "stock_notice": {
+      "one": "Only {{ count }} left in stock",
+      "other": "Only {{ count }} left in stock"
+    }
+  },
+  "cart": {
+    "item_count": {
+      "one": "{{ count }} item in your cart",
+      "other": "{{ count }} items in your cart"
+    },
+    "added_notice": "Added {{ product_title }} to your cart"
+  },
+  "customers": {
+    "orders": {
+      "order_count": {
+        "one": "You've placed {{ count }} order with us",
+        "other": "You've placed {{ count }} orders with us"
+      }
+    }
+  }
+}

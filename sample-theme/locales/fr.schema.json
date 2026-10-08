@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "search_bar": {
+      "name": "Barre de recherche",
+      "settings": {
+        "heading": {
+          "label": "Titre"
+        }
+      }
+    },
+    "hero": {
+      "name": "Bannière héro"
+    },
+    "announcement_bar": {
+      "name": "Barre d'annonce"
+    }
+  }
+}

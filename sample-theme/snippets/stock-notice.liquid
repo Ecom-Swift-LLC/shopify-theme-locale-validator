@@ -1,0 +1,5 @@
+{%- if variant.inventory_management and variant.inventory_quantity <= 10 and variant.inventory_quantity > 0 -%}
+  <p class="stock-notice">
+    {{ 'products.stock_notice' | t: count: variant.inventory_quantity }}
+  </p>
+{%- endif -%}

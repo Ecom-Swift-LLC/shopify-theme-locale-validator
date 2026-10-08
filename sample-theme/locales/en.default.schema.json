@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "search_bar": {
+      "name": "Search bar",
+      "settings": {
+        "heading": {
+          "label": "Heading"
+        }
+      }
+    },
+    "hero": {
+      "name": "Hero banner",
+      "settings": {
+        "heading": {
+          "label": "Heading"
+        }
+      }
+    },
+    "announcement_bar": {
+      "name": "Announcement bar"
+    }
+  }
+}

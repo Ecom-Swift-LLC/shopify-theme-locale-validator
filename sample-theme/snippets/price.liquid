@@ -1,0 +1,8 @@
+{%- comment -%}
+  Renders a product's "from" price. Note the typo below is intentional —
+  it's the sample theme's demonstration of stlv catching a key referenced
+  in Liquid that doesn't actually exist in locales/en.default.json.
+{%- endcomment -%}
+<span class="price">
+  {{ 'products.pric.from_price_html' | t: price: product.price_min | money }}
+</span>

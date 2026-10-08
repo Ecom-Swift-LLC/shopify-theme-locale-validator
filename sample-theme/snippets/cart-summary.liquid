@@ -1,0 +1,6 @@
+<p class="cart-item-count">
+  {{ 'cart.item_count' | t: count: cart.item_count }}
+</p>
+<p class="cart-added-notice" hidden data-cart-added-notice>
+  {{ 'cart.added_notice' | t: product_title: cart.items.first.product.title }}
+</p>

@@ -1,0 +1,31 @@
+{
+  "general": {
+    "search": {
+      "placeholder": "In unserem Shop suchen"
+    },
+    "newsletter": {
+      "success": "Danke für deine Anmeldung!"
+    }
+  },
+  "products": {
+    "price": {
+      "from_price_html": "Ab {{ price }}"
+    },
+    "stock_notice": "Nur noch wenige auf Lager"
+  },
+  "cart": {
+    "item_count": {
+      "one": "{{ count }} Artikel im Warenkorb",
+      "other": "{{ count }} Artikel im Warenkorb"
+    },
+    "added_notice": "{{ product_title }} wurde zu deinem Warenkorb hinzugefügt"
+  },
+  "customers": {
+    "orders": {
+      "order_count": {
+        "one": "Sie haben {{ count }} Bestellung bei uns aufgegeben",
+        "other": "Sie haben {{ count }} Bestellungen bei uns aufgegeben"
+      }
+    }
+  }
+}

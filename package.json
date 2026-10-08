@@ -1,0 +1,39 @@
+{
+  "name": "shopify-theme-locale-validator",
+  "version": "1.0.0",
+  "description": "Validates Shopify theme locale JSON files: missing/extra translation keys, broken pluralization groups, mismatched {{ placeholders }}, duplicate JSON keys, and keys referenced in Liquid that don't exist.",
+  "license": "MIT",
+  "author": "Ecom Swift LLC",
+  "bin": {
+    "stlv": "bin/stlv.js"
+  },
+  "main": "lib/validate.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "shopify",
+    "shopify-theme",
+    "liquid",
+    "i18n",
+    "localization",
+    "translation",
+    "validator",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecom-Swift-LLC/shopify-theme-locale-validator.git"
+  },
+  "homepage": "https://github.com/Ecom-Swift-LLC/shopify-theme-locale-validator",
+  "bugs": {
+    "url": "https://github.com/Ecom-Swift-LLC/shopify-theme-locale-validator/issues"
+  }
+}

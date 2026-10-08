@@ -1,0 +1,28 @@
+<div class="search-bar">
+  <form action="{{ routes.search_url }}" method="get" role="search">
+    <input
+      type="search"
+      name="q"
+      placeholder="{{ 'general.search.placeholder' | t }}"
+      aria-label="{{ 'general.search.placeholder' | t }}"
+    >
+  </form>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.search_bar.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:sections.search_bar.settings.heading.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.search_bar.name"
+    }
+  ]
+}
+{% endschema %}

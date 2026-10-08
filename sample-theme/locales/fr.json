@@ -1,0 +1,27 @@
+{
+  "general": {
+    "search": {
+      "placeholder": "Rechercher dans notre boutique",
+      "placeholder": "Recherchez dans notre boutique"
+    },
+    "newsletter": {
+      "success": "Merci de votre inscription !"
+    }
+  },
+  "products": {
+    "price": {
+      "from_price_html": "À partir de {{ price }}"
+    },
+    "stock_notice": {
+      "one": "Il ne reste que {{ count }} en stock"
+    }
+  },
+  "cart": {
+    "item_count": {
+      "one": "{{ count }} article dans votre panier",
+      "other": "{{ count }} articles dans votre panier"
+    },
+    "added_notice": "Ajouté à votre panier",
+    "old_checkout_button": "Commander"
+  }
+}
